@@ -1,4 +1,4 @@
-FROM Python:3.9.11
+FROM python:3.9.11
 
 WORKDIR /usr/src/app
 
