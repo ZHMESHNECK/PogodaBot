@@ -3,6 +3,7 @@ services:
 
   bot:
     build: .
+    image: zhmeshneck/pogodabot
     command: sh -c "python -m main.py"
     env_file:
       - ./.env
