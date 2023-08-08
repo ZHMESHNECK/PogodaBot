@@ -1,6 +1,6 @@
 FROM python:3.9.11
 
-WORKDIR /usr/src/app
+WORKDIR /projects/PogodaBot
 
 COPY requirements.txt requirements.txt
 
